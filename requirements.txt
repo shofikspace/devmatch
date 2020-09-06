@@ -1,0 +1,5 @@
+Memberships
+* User should see link basic plan on home page
+* User should see link pro plan on home page
+* Basic plan should point to requlan sign up form
+*Pro plan should point to a custom sign up form
