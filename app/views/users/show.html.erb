@@ -1,4 +1,4 @@
-<div class ="contailer">
+<div class ="container">
   <div class ="row">
     <div class="col-md-3 text-center">
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
@@ -17,6 +17,7 @@
           <%= @user.profile.contact_email %> <br>
         </div>
       <% end %>
-    </div>
+      <%= link_to "Edit profile", edit_user_registration_path, class: 'btn btn-primary' %>
+   </div>
   </div>
 </div>
