@@ -19,6 +19,7 @@
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
  
+
  
  //Typography Styles
  h1, h2, h3 {
@@ -71,16 +72,16 @@
 }
 
 .flash-container {
-  position: absolute;
-  width: 100%;
-  text-align: center;
+ position: absolute;
+ width: 100%;
+ text-align: center;
 }
 .alert-notice, .alert-alert {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
-  margin-top: -14px;
-  font-size: 20px;
+ text-align: center;
+ background: rgba(255, 255, 255, 0.3);
+ border-color: rgba(255, 255, 255, 0.5);
+ margin-top: -14px;
+ font-size: 20px;
 }
 
 .home-signup-links {
@@ -91,18 +92,18 @@
  color: green;
 }
 
-.credit {
- text-align: right;
- margin-right: 225px;
- font-size: 1rem;
- font-weight: 400;
- line-height: 1.5;
+
+footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #B22222;
+ color: white;
+ text-align: center;
+ 
 }
 
-.shofik {
- margin-bottom: -25px;
-}
-
-.email {
- margin-right: -14px;
+footer p {
+ margin-bottom: 0px;
 }

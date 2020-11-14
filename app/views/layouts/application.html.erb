@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <title>DevMatch</title>
     <%= csrf_meta_tags %>
@@ -10,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY %>
   </head>
-
- <body>
+  
+  <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class='container'>
         <div class="navbar-header">
@@ -52,8 +53,11 @@
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
     </div>
-    
     <%= yield %>
-    
   </body>
+  
+  <footer>
+      <p>Developed by Shofik</p>
+      <p><a href="mailto:shofikminhaj@gmail.com">shofikminhaj@gmail.com.com</a></p>
+  </footer> 
 </html>
